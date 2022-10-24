@@ -47,7 +47,9 @@ enum type_tag classify_string(void)
 
 void gettoken(void) /* read next token into "this" */
 {
+	char *p = this.string;
 	/* read past any spaces */
+	while ((*p = getchar()) == ' ' );
 
 	/*inside of if statement; it starts with A-Z, 0-9 read in identifier */
 
