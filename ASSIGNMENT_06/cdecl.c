@@ -51,7 +51,22 @@ void gettoken(void) /* read next token into "this" */
 	/* read past any spaces */
 	while ((*p = getchar()) == ' ' );
 
+	if (isalnum(*p)) {
 	/*inside of if statement; it starts with A-Z, 0-9 read in identifier */
+		while ( isalnum(*++p=getchar()) );
+		ungetc(*p,stdin);
+		*p = '\0';
+		this.type=classify_string();
+		return;
+	}
 
+	if (*p=='*') {
+		strcpy(this.string, "pointer to");
+		this.type = '*';
+		return;
+	}
+	
+	this.string[1] = '\0';
+	this.type = *p;
 	return;
 }
