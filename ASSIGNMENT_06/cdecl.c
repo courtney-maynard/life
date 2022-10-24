@@ -70,3 +70,8 @@ void gettoken(void) /* read next token into "this" */
 	this.type = *p;
 	return;
 }
+
+/*the piece of code that understandeth all parsing. */
+read_to_first_identifier(){
+
+}
