@@ -7,4 +7,7 @@
 
 enum type_tag { IDENTIFIER, QUALIFIER, TYPE };
 
-
+struct token {
+	char type;
+	char string[MAXTOKENLEN];
+};
