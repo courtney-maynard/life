@@ -16,3 +16,6 @@ int top=-1;
 struct token stack[MAXTOKENS];
 struct token this;
 
+#define pop stack[top--]
+#define push(s) strack[++top]=s
+
