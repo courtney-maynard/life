@@ -73,5 +73,11 @@ void gettoken(void) /* read next token into "this" */
 
 /*the piece of code that understandeth all parsing. */
 read_to_first_identifier(){
-
+	gettoken();
+	while (this.type!=IDENTIFIER){
+		push(this);
+		gettoken();
+	}
+	printf("%s is ", this.string);
+	gettoken();
 }
