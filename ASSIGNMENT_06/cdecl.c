@@ -19,3 +19,8 @@ struct token this;
 #define pop stack[top--]
 #define push(s) strack[++top]=s
 
+enum type_tag classify_string(void)
+	/* figure out the identifier type */
+{
+	return IDENTIFIER;
+}
