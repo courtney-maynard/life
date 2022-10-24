@@ -81,3 +81,12 @@ read_to_first_identifier(){
 	printf("%s is ", this.string);
 	gettoken();
 }
+
+deal_with_arrays() {
+
+	/* a number of ']' */
+
+	/* read the ']' */
+
+	/*read next past the ']' */
+}
