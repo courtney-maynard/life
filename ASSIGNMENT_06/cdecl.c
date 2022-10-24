@@ -11,3 +11,8 @@ struct token {
 	char type;
 	char string[MAXTOKENLEN];
 };
+
+int top=-1;
+struct token stack[MAXTOKENS];
+struct token this;
+
