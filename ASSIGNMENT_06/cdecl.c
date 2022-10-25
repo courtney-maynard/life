@@ -108,3 +108,9 @@ deal_with_pointers(){
 		printf("%s ", pop.string );
 	}
 }
+
+deal_with_declarator() {
+	/* deal with possible array/function following the identifier */
+
+	/*process tokens that we stacked while reading to identifier */
+}
