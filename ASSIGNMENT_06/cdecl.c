@@ -48,6 +48,7 @@ enum type_tag classify_string(void)
 void gettoken(void) /* read next token into "this" */
 {
 	char *p = this.string;
+
 	/* read past any spaces */
 	while ((*p = getchar()) == ' ' );
 
@@ -83,7 +84,7 @@ read_to_first_identifier(){
 }
 
 deal_with_arrays() {
-	while (this.type==']'){
+	while (this.type=='['){
 		printf("array");
 		gettoken(); /* a number or ']' */
 		if (isdigit(this.string[0])) {
