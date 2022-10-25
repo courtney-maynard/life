@@ -130,6 +130,10 @@ deal_with_declarator() {
 	}
 }
 
+main () 
+{
+ /* put tokens on stack until we reach identifier */
+
 }
 
 
