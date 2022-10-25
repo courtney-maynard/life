@@ -1,0 +1,65 @@
+2a6e3c9 HEAD@{0}: commit: Fix spelling errors and bugs
+820524c HEAD@{1}: merge feature/main: Fast-forward
+86e5392 HEAD@{2}: checkout: moving from feature/main to main
+820524c HEAD@{3}: commit: Add print and return statements
+07f7ff9 HEAD@{4}: commit: Add code for identifier/declarator handling calls
+f5a5d2c HEAD@{5}: commit: Comment and set up main
+86e5392 HEAD@{6}: checkout: moving from main to feature/main
+86e5392 HEAD@{7}: merge feature/deal_with_declarator: Fast-forward
+569ec13 HEAD@{8}: checkout: moving from feature/deal_with_declarator to main
+86e5392 HEAD@{9}: commit: Implement token processing from the stack
+a95d0d6 HEAD@{10}: commit: Implement switch statement for array/func cases
+6bef462 HEAD@{11}: commit: Comment and set up deal_with_declarator
+569ec13 HEAD@{12}: checkout: moving from main to feature/deal_with_declarator
+569ec13 HEAD@{13}: merge feature/deal_with_fucntion_args: Fast-forward
+a911664 HEAD@{14}: checkout: moving from feature/deal_with_fucntion_args to main
+569ec13 HEAD@{15}: commit: Implement correct behavior for handling arguments
+aa40430 HEAD@{16}: commit: Set up deal_with_function_args
+a911664 HEAD@{17}: checkout: moving from main to feature/deal_with_fucntion_args
+a911664 HEAD@{18}: merge feature/deal_with_pointers: Fast-forward
+705c00b HEAD@{19}: checkout: moving from feature/deal_with_pointers to main
+a911664 HEAD@{20}: commit: Add while loop for popping for pointers
+2b95b63 HEAD@{21}: commit: Set up deal_with_pointers
+705c00b HEAD@{22}: checkout: moving from main to feature/deal_with_pointers
+705c00b HEAD@{23}: merge feature/deal_with_arrays: Fast-forward
+2195123 HEAD@{24}: checkout: moving from feature/deal_with_arrays to main
+705c00b HEAD@{25}: commit: Implement method calls, prints for handling arrays
+0935b59 HEAD@{26}: commit: Comment and set up deal_with_arrays
+2195123 HEAD@{27}: checkout: moving from main to feature/deal_with_arrays
+2195123 HEAD@{28}: merge feature/read_to_first_identifier: Fast-forward
+4d9722e HEAD@{29}: checkout: moving from feature/read_to_first_identifier to main
+2195123 HEAD@{30}: commit: Add calls for getting/pushing/printing identifiers
+bf98e0a HEAD@{31}: commit: Comment and set up read_to_first_identifier
+4d9722e HEAD@{32}: checkout: moving from main to feature/read_to_first_identifier
+4d9722e HEAD@{33}: merge feature/gettoken: Fast-forward
+d678e0e HEAD@{34}: checkout: moving from feature/gettoken to main
+4d9722e HEAD@{35}: commit: Add if, assignment, and return statements
+a6b1959 HEAD@{36}: commit: Write code for assigning char, reading past spaces
+fa14ca7 HEAD@{37}: commit: Comment and set up gettoken
+d678e0e HEAD@{38}: checkout: moving from main to feature/gettoken
+d678e0e HEAD@{39}: merge feature/classify_string: Fast-forward
+97a6ab0 HEAD@{40}: checkout: moving from feature/classify_string to main
+d678e0e HEAD@{41}: commit: Add if statements with return types
+27c055d HEAD@{42}: commit: Comment and set up function name and type
+97a6ab0 HEAD@{43}: checkout: moving from main to feature/classify_string
+97a6ab0 HEAD@{44}: merge feature/cdeclsetup: Fast-forward
+660f095 HEAD@{45}: checkout: moving from feature/cdeclsetup to main
+97a6ab0 HEAD@{46}: commit: Add define statements for pushing/popping
+deb3fd2 HEAD@{47}: commit: Add structures for the stack and pointer
+e97aa0c HEAD@{48}: commit: Add token types
+71e85dc HEAD@{49}: commit: Add include statements and enum types
+660f095 HEAD@{50}: checkout: moving from main to feature/cdeclsetup
+660f095 HEAD@{51}: commit: Add cdecl.c
+36071cd HEAD@{52}: checkout: moving from feature/setup to main
+7968789 HEAD@{53}: commit: Add define statements for pushing/popping
+83ebe1b HEAD@{54}: commit: Add structures for the stack and pointer
+3a8fa2e HEAD@{55}: commit: Add enum and token types
+4d87ede HEAD@{56}: commit: Add include statements
+36071cd HEAD@{57}: checkout: moving from main to feature/setup
+36071cd HEAD@{58}: merge feature/cumulative_sum: Fast-forward
+a0da8af HEAD@{59}: checkout: moving from feature/cumulative_sum to main
+36071cd HEAD@{60}: commit: Edit sumr.c
+a0da8af HEAD@{61}: checkout: moving from main to feature/cumulative_sum
+a0da8af HEAD@{62}: commit: Add sumr.c
+f8917dc HEAD@{63}: commit: Add sum.c
+0285c96 HEAD@{64}: clone: from git@github.com:courtney-maynard/life.git
