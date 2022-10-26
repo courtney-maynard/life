@@ -17,7 +17,7 @@ struct token stack[MAXTOKENS];
 struct token this;
 
 #define pop stack[top--]
-#define push(s) strack[++top]=s
+#define push(s) stack[++top]=s
 
 enum type_tag classify_string(void)
 	/* figure out the identifier type */
@@ -28,7 +28,7 @@ enum type_tag classify_string(void)
 		return QUALIFIER;
 	}
 	if (!strcmp(s, "volatile")) return QUALIFIER;
-	if (!strcmp(s, "void")) return TYPE:
+	if (!strcmp(s, "void")) return TYPE;
 	if (!strcmp(s, "char")) return TYPE;
 	if (!strcmp(s, "signed")) return TYPE;
 	if (!strcmp(s, "unsigned")) return TYPE;
