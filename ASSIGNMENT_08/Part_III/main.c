@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stlib.h>
 
 a (int i) {
 	 if (i>0)
