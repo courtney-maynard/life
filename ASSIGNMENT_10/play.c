@@ -16,15 +16,18 @@ void two (char *pa )
 	printf(" ++pa = %#x \n", ++pa);
 }
 
-void three ()
+main() 
 {
-	one (ga);
-	two (ga);
-}
+	char ca[24];
+	char *pa;
 
-void four () 
-{
+	one(ca);
+	two(pa);
+	
+	one(ga);
+	two(ga);
+	
 	printf(" addr of global array = %#x \n", &ga);
-	printf(" addr (ga[0]) = %#x \n", &(ga[0]));
-	printf( " addr (ga[1]) = %#x \n\n", &(ga[1]));
+        printf(" addr (ga[0]) = %#x \n", &(ga[0]));
+        printf( " addr (ga[1]) = %#x \n\n", &(ga[1]));
 }
