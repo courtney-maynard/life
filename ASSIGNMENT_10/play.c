@@ -1,3 +1,4 @@
+char ga[] = "abcdefghijklmnopqrstuvwxyz";
 
 void one (char ca[24] )
 {
@@ -15,8 +16,15 @@ void two (char *pa )
 	printf(" ++pa = %#x \n", ++pa);
 }
 
-void three (){
-	char ga[] = "abcdefghijklmnopqrstuvwxyz";
+void three ()
+{
 	one (ga);
 	two (ga);
+}
+
+void four () 
+{
+	printf(" addr of global array = %#x \n", &ga);
+	printf(" addr (ga[0]) = %#x \n", &(ga[0]));
+	printf( " addr (ga[1]) = %#x \n\n", &(ga[1]));
 }
