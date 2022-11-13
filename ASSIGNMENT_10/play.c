@@ -14,3 +14,9 @@ void two (char *pa )
 	printf(" addr of (pa[1]) = %#x \n", &(pa[1]));
 	printf(" ++pa = %#x \n", ++pa);
 }
+
+void three (){
+	char ga[] = "abcdefghijklmnopqrstuvwxyz";
+	one (ga);
+	two (ga);
+}
