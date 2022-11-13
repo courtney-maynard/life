@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 char ga[] = "abcdefghijklmnopqrstuvwxyz";
 
 void one (char ca[24] )
