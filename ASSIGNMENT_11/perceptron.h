@@ -17,19 +17,4 @@ void fit_model(Model model, Data data);
 void run_scoring_engine(const Model model);
 
 #endif
-~                                                                                                                                                                  
-~                                                                                                                                                                  
-~                                                                                                                                                                  
-~                                                                                                                                                                  
-~                                                                                                                                                                  
-~                                                                                                                                                                  
-~                                                                                                                                                                  
-~                                                                                                                                                                  
-~                                                                                                                                                                  
-~                                                                                                                                                                  
-~                                                                                                                                                                  
-~                                                                                                                                                                  
-~                                                                                                                                                                  
-~                                                                                                                                                                  
-~                                                                                                                                                                  
-"perceptron.h" 19L, 309C                                                                                                                         11,11         All
+                                                                                                                    11,11         All
